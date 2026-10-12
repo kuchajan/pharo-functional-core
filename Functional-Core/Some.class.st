@@ -14,7 +14,7 @@ Some >> flatMap: aBlock [
 	^ aBlock value: val.
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : 'accessing' }
 Some >> getOrDefault: aDefault [
 	^val.
 ]
