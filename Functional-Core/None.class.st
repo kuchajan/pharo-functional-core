@@ -11,7 +11,7 @@ None >> flatMap: aBlock [
 	^self.
 ]
 
-{ #category : 'as yet unclassified' }
+{ #category : 'accessing' }
 None >> getOrDefault: aDefault [
 	^aDefault.
 ]
