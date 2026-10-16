@@ -57,3 +57,9 @@ Either >> mapRight: aBlock [
 	"Maps the value via the block if this is instance of <EitherRight> and returns a new instance of <EitherRight> with result value, otherwise returns itself with no changes."
 	^ self subclassResponsibility.
 ]
+
+{ #category : 'accessing' }
+Either >> val: anObject [
+
+	val := anObject
+]
