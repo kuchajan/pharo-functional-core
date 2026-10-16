@@ -22,6 +22,12 @@ EitherLeft >> flatMapRight: aBlock [
 ]
 
 { #category : 'testing' }
+EitherLeft >> isLeft [
+	"Returns true if <Either> is a <EitherLeft>, false otherwise"
+	^ true.
+]
+
+{ #category : 'testing' }
 EitherLeft >> isRight [
 	"Returns true if <Either> is a <EitherRight>, false otherwise"
 	^ false.
